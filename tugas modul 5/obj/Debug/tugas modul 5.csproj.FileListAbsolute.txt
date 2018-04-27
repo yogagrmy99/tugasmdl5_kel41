@@ -1,0 +1,7 @@
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\obj\Debug\tugas modul 5.csprojResolveAssemblyReference.cache
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\obj\Debug\tugas modul 5.csproj.CoreCompileInputs.cache
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\bin\Debug\tugas modul 5.exe.config
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\bin\Debug\tugas modul 5.exe
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\bin\Debug\tugas modul 5.pdb
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\obj\Debug\tugas modul 5.exe
+C:\Users\yoga_\source\repos\tugas modul 5\tugas modul 5\obj\Debug\tugas modul 5.pdb
