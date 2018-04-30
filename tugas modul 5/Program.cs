@@ -23,3 +23,5 @@ namespace tugas_modul_5
     }
     }
 }
+
+/*wainii tjakep*/
