@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace tugas_modul_5
 {
-    class input #kelas input
+    class input //kelas input
     {
-        float lt, ht, lb, hb, pbb, harga; #tipedata bilangan desimal(float)
+        float lt, ht, lb, hb, pbb, harga; //tipedata bilangan desimal(float)
         string inputt;
         operasi ope;
 
@@ -22,25 +22,50 @@ namespace tugas_modul_5
         public void inputData()
         {
             Identitas id = new Identitas();
+            a:
             Console.Clear();
             id.id();
 
             Console.WriteLine(" \n\nInput Data: \n");
             Console.Write("\n Luas Tanah (dalam meter persegi): ");
             inputt = Console.ReadLine();
-            float.TryParse(inputt, out lt);
+            while(!float.TryParse(inputt, out lt))
+            {
+                Console.Clear();
+                Console.WriteLine("Masukan anda salah, coba lagi!");
+                Console.ReadKey();
+                goto a;
+            }
             ope.lt = this.lt;
             Console.Write("\n Harga Jual Tanah: Rp");
             inputt = Console.ReadLine();
-            float.TryParse(inputt, out ht);
+            while (!float.TryParse(inputt, out ht))
+            {
+                Console.Clear();
+                Console.WriteLine("Masukan anda salah, coba lagi!");
+                Console.ReadKey();
+                goto a;
+            }
             ope.ht = this.ht;
             Console.Write("\n Luas Bangunan (dalam meter persegi): ");
             inputt = Console.ReadLine();
-            float.TryParse(inputt, out lb);
+            while (!float.TryParse(inputt, out lb))
+            {
+                Console.Clear();
+                Console.WriteLine("Masukan anda salah, coba lagi!");
+                Console.ReadKey();
+                goto a;
+            }
             ope.lb = this.lb;
             Console.Write("\n Harga Jual Bangunan: Rp");
             inputt = Console.ReadLine();
-            float.TryParse(inputt, out hb);
+            while (!float.TryParse(inputt, out lb))
+            {
+                Console.Clear();
+                Console.WriteLine("Masukan anda salah, coba lagi!");
+                Console.ReadKey();
+                goto a;
+            }
             ope.hb = this.hb;
             
            
@@ -75,4 +100,4 @@ namespace tugas_modul_5
     }
 }
 
-#sourcecode-nya banyak
+//sourcecode-nya banyak
