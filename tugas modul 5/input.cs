@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace tugas_modul_5
 {
-    class input
+    class input #kelas input
     {
-        float lt, ht, lb, hb, pbb, harga;
+        float lt, ht, lb, hb, pbb, harga; #tipedata bilangan desimal(float)
         string inputt;
         operasi ope;
 
@@ -74,3 +74,5 @@ namespace tugas_modul_5
         }
     }
 }
+
+#sourcecode-nya banyak
