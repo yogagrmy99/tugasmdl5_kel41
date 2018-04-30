@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tugas_modul_5
 {
-    class Program
+    class Program #kelas Program
     {
         static void Main(string[] args)
         {
